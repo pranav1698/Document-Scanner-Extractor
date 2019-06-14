@@ -1,4 +1,4 @@
-from transform import four_point_transform
+from transform import four_transform
 import cv2
 import numpy as np
 from skimage.filters import threshold_local

@@ -21,7 +21,7 @@ def order_points(pts):
 	
 	return rect
 
-def four_point_transform(image, pts):
+def four_transform(image, pts):
 	# Obtaining a constant ordered points from the given points
 	rect = order_points(pts)
 	(tl, tr, br, bl) = rect
